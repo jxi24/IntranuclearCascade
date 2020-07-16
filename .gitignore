@@ -1,0 +1,14 @@
+.coverage
+__pycache__/*
+*.pyc
+.DS_Store
+*.so
+build/
+*.png
+*.eps
+*.pdf
+*.jpg
+.coverage*
+.pylintrc
+compile_commands.json
+*.o
