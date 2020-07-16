@@ -12,3 +12,4 @@ build/
 .pylintrc
 compile_commands.json
 *.o
+*egg-info

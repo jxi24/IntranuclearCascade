@@ -1,0 +1,27 @@
+run:
+    mode: xsec
+    events: 10000
+    beam_energy: 331.66
+    nucleus: 12C
+    nuclear_density: configuration
+
+nucleus_config:
+    config_type: QMC
+
+12C_params:
+    binding_energy: 8.6
+    fermi_momentum: 225
+    fermi_energy: 20
+
+parameters:
+    interaction: GeantInteractions
+    interaction_file: data/GeantData.hdf5
+    density_file: density/c12.txt
+    cascade_distance: 0.05
+    cascade_prob: Gaussian
+    fermi_gas: Local
+
+mean_free_path:
+    xsec: 10.0
+    radius: 10.0
+    nucleons: 300
