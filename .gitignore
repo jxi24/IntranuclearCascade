@@ -2,7 +2,7 @@
 __pycache__/*
 *.pyc
 .DS_Store
-*.so
+*.so*
 build/
 *.png
 *.eps
@@ -13,3 +13,5 @@ build/
 compile_commands.json
 *.o
 *egg-info
+*.log
+_version.py
