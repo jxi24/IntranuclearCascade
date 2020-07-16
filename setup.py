@@ -90,7 +90,7 @@ class CMakeBuild(build_ext):
 
 setup(
     name='intranuclear_cascade',
-    version='0.0.1',
+    version='1.0.0',
     description='Intranuclear Cascade code',
     long_description=read('README.md'),
     long_description_content_type='text/markdown',
